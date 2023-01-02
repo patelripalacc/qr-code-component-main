@@ -5,7 +5,9 @@
 }
 
 .attribution { 
-    font-size: 19px; text-align: center;
+    font-size: 15px;
+    text-align: center;
+    
 }
 
 .attribution a { 
@@ -28,7 +30,7 @@ body {
     margin: 1.24rem;
 }
 
-.container {
+.main {
     background-color: hsl(0, 0%, 100%);
     padding: 1.25rem;
     border-radius: 0.625rem;
@@ -36,24 +38,24 @@ body {
     margin-bottom: 2rem;
 }
 
-.container img {
+.main img {
     border-radius: 0.625rem;
     margin-bottom: 1rem;
 }
 
-.container h1 {
+.main h1 {
     color: hsl(218, 44%, 22%);
     text-align: center;
     margin-bottom: 1rem;
 }
 
-.container p {
+.main p {
     color: hsl(220, 15%, 55%);
     text-align: center;
 }
 
 @media (min-width: 375px) {
-    .container {
+    .main {
         width: 400px;
     }
 }
